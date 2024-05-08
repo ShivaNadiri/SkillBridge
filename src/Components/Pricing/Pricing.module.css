@@ -1,0 +1,67 @@
+.Pricing {
+  padding: 2rem 3rem;
+  /* margin-top: 3rem; */
+}
+
+.TopContainer {
+  /* border: 1px solid yellow; */
+  padding: 0px 35px 30px 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border-bottom: 1px solid #e4e4e7;
+  margin-top: 3rem;
+}
+.TopContainer h1 {
+  width: 40%;
+}
+
+.TopContainer p {
+  width: 50%;
+}
+.Price_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  /* border-radius: 8px; */
+  /* background-color: #ffffff; */
+  /* padding: 12px; */
+}
+.Price_btn button {
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+
+  padding: 24px 36px 24px 36px;
+}
+.Price_btn button:hover {
+  background: #ff9500;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 12px 24px 12px 24px;
+}
+@media screen and (max-width: 667px) {
+  .TopContainer {
+    gap: 30px;
+    padding: 0px 40px 20px 40px;
+  }
+}
+@media screen and (max-width: 521px) {
+  .TopContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .TopContainer h1 {
+    width: 100%;
+  }
+  .TopContainer p {
+    width: 100%;
+  }
+}

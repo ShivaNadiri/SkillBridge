@@ -1,0 +1,232 @@
+.courseSection {
+  width: 100%;
+  /* padding: 1rem 2rem; */
+  margin-top: 3rem;
+}
+.TopContainer {
+  padding: 0px 35px 30px 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  border-bottom: 1px solid #e4e4e7;
+}
+.TopContainer h1 {
+  width: 40%;
+}
+.TopContainer p {
+  width: 50%;
+}
+.BottomContainer {
+  margin-top: 3rem;
+  padding: 1rem 2.5rem;
+}
+.CardContainer {
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.subContainer1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TextContainer {
+  width: 85%;
+}
+.TextContainer p {
+  margin: 0.8rem 0;
+}
+.subContainer1 button {
+  border: none;
+  outline: none;
+  padding: 14px 16px 14px 16px;
+  background-color: #ffffff;
+  border: 1px solid #f1f1f3;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 0.5rem;
+}
+.subContainer1 button:hover {
+  background-color: #ff9500;
+  border-radius: 0.3rem;
+  color: #ffffff;
+}
+.ImageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.ImageContainer img {
+  width: 31.8%;
+}
+.subContainer2 {
+  margin-top: 0.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.subContainer2 .Container_sub {
+  display: flex;
+  gap: 8px;
+}
+.duration_Container,
+.level_Container {
+  border: 1px solid #f1f1f3;
+  padding: 8px 12px 8px 12px;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+.Container2 {
+  border: 1px solid #f1f1f3;
+  border-radius: 10px;
+  margin-top: 2rem;
+}
+.CardSubContainer1 {
+  padding: 20px 24px 20px 24px;
+  border-bottom: 1px solid #f1f1f3;
+}
+.CardSubContainer2 {
+  padding: 24px 40px 24px 40px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 36px;
+}
+.featureItem {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  gap: 16px;
+  width: 132px;
+}
+.featureItem h4 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+}
+.featureItem p {
+  font-size: 1rem;
+  line-height: 24px;
+}
+.line {
+  width: 1px;
+  background-color: #f1f1f3;
+  height: 130px;
+}
+@media screen and (max-width: 618px) {
+  .CardSubContainer2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .featureItem {
+    width: 80%;
+  }
+  .line {
+    width: 80%;
+    background-color: #f1f1f3;
+    height: 1px;
+  }
+}
+
+@media screen and (max-width: 1066px) {
+  .subContainer1 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+  }
+  .ImageContainer {
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .ImageContainer {
+    gap: 13px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .ImageContainer {
+    gap: 11px;
+  }
+}
+@media screen and (max-width: 667px) {
+  .TopContainer {
+    gap: 30px;
+    padding: 0px 40px 20px 40px;
+  }
+  .TextContainer {
+    width: 100%;
+  }
+  .ImageContainer {
+    gap: 9px;
+  }
+}
+@media screen and (max-width: 521px) {
+  .TopContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .TopContainer h1 {
+    width: 100%;
+  }
+  .TopContainer p {
+    width: 100%;
+  }
+  .ImageContainer {
+    gap: 7px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .subContainer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .ImageContainer img {
+    width: 31.2%;
+  }
+  .CardSubContainer2 {
+    padding: 18px;
+  }
+  .featureItem {
+    width: 100%;
+  }
+  .line {
+    width: 100%;
+    background-color: #f1f1f3;
+    height: 1px;
+  }
+  .CardContainer {
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .ImageContainer img {
+    width: 31%;
+  }
+  .subContainer2 .Container_sub {
+    gap: 5px;
+  }
+  .duration_Container,
+  .level_Container {
+    padding: 6px 8px 6px 8px;
+
+    border-radius: 6px;
+  }
+}

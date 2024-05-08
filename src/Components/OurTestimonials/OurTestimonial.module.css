@@ -1,0 +1,125 @@
+.Testimonial_Section {
+  margin-top: 4rem;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.TextContainer {
+  width: 70%;
+}
+.TextContainer p {
+  margin-top: 1rem;
+}
+.Testimonial_btn {
+  margin-top: 1rem;
+}
+.Testimonial_btn button {
+  outline: none;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.Testimonial_btn button:hover {
+  background-color: #ff9500;
+  border-radius: 0.3rem;
+  color: #ffffff;
+}
+.Testimonial_Section .cardContainer {
+  margin-top: 4rem;
+}
+.cardContainer .ItemsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.cardContainer .ItemsContainer .Card {
+  width: 568px;
+  margin-bottom: 1rem;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.innerCardContainer1 {
+  padding: 40px;
+}
+.innerCardContainer2 {
+  border: 1px solid #f1f1f3;
+  padding: 24px 40px 24px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.innerCardContainer2 .subContainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.innerCardContainer2 .subContainer h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.innerCardContainer2 .Card_btn button {
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 866px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .TextContainer {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 490px) {
+  .cardContainer .ItemsContainer .Card {
+    width: 390px;
+    margin-bottom: 1rem;
+    background: #ffffff;
+    border-radius: 10px;
+  }
+  .subContainer img {
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+  }
+  .subContainer h4 {
+    font-size: 0.8rem;
+  }
+  .innerCardContainer1 {
+    padding: 20px;
+  }
+  .innerCardContainer2 {
+    padding: 10px 20px 10px 20px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .subContainer img {
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+  }
+  .subContainer h4 {
+    font-size: 0.6rem;
+  }
+  .innerCardContainer1 {
+    padding: 15px;
+  }
+  .innerCardContainer2 {
+    padding: 8px 16px 8px 16px;
+  }
+  .innerCardContainer2 .Card_btn button {
+    font-size: 0.7rem;
+    font-weight: 600;
+    padding: 10px 12px 10px 12px;
+  }
+}

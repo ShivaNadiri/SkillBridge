@@ -1,0 +1,289 @@
+.AboutSection {
+  width: 100%;
+  margin-top: 3rem;
+  /* padding-bottom: 1rem; */
+}
+
+/* .AboutSection h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #262626;
+}
+.AboutSection p {
+  color: #59595a;
+} */
+
+.TopContainer {
+  /* border: 1px solid yellow; */
+  padding: 0px 35px 30px 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border-bottom: 1px solid #e4e4e7;
+}
+.TopContainer h1 {
+  width: 40%;
+}
+
+.TopContainer p {
+  width: 50%;
+}
+
+.AchievmentContainer {
+  /* border: 1px solid black; */
+  margin: 2rem 4rem;
+}
+.TextContainer {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.card {
+  /* border: 1px solid purple; */
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 530px;
+}
+
+.IconContainer img {
+  border: 1px solid #ffeacc;
+  padding: 14px;
+  background-color: #fff9f0;
+  border-radius: 6px;
+}
+.card_TextContainer {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.CardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.CTASection {
+  /* margin: 4rem; */
+  margin: 3rem 4rem;
+  background-color: #ffffff;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 40px;
+  border-radius: 10px;
+}
+.CTA_TextContainer {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.CTA_TextContainer h1 {
+  width: 80%;
+}
+.CTA_TextContainer p {
+  width: 100%;
+}
+.FirstWord {
+  color: #ff9500;
+}
+.CTA_Icon {
+  width: 345px;
+  /* border: 1px solid orange; */
+  position: absolute;
+  top: -15px;
+  right: 140px;
+}
+.btn_container button {
+  outline: none;
+  border: none;
+  padding: 14px 20px 14px 20px;
+  border-radius: 6px;
+}
+.btn_container button:hover {
+  color: #ffffff;
+  background-color: #ff9500;
+  cursor: pointer;
+}
+@media screen and (max-width: 1200px) {
+  .CTASection {
+    padding: 30px;
+  }
+  .CTA_TextContainer p {
+    width: 80%;
+  }
+  .CTA_Icon {
+    top: -20px;
+  }
+}
+@media screen and (max-width: 1065px) {
+  .CTA_TextContainer h1 {
+    width: 60%;
+  }
+  .CTA_TextContainer p {
+    width: 70%;
+  }
+  .CTA_Icon {
+    top: -10px;
+    width: 330px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .CTA_TextContainer h1 {
+    width: 55%;
+  }
+  .CTA_TextContainer p {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 960px) {
+  .CTASection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  .CTA_Icon {
+    width: 280px;
+    top: 140px;
+    right: 0px;
+  }
+}
+@media screen and (max-width: 1256px) {
+  .card {
+    width: 48%;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .card {
+    width: 100%;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .TopContainer {
+    padding: 0px 35px 30px 30px;
+  }
+  .AchievmentContainer {
+    margin: 2rem 2rem;
+  }
+  .CTASection {
+    gap: 30px;
+    margin: 2rem 2rem;
+  }
+  .CTA_Icon {
+    width: 250px;
+    top: 138px;
+    right: 0px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .CTASection {
+    gap: 30px;
+  }
+  .CTA_Icon {
+    top: 140px;
+  }
+  .CTA_TextContainer h1 {
+    width: 80%;
+  }
+  .CTA_TextContainer p {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .TopContainer {
+    padding: 0px 25px 30px 25px;
+  }
+  .AchievmentContainer {
+    margin: 2rem 1.5rem;
+  }
+  .CTASection {
+    margin: 2rem 1.5rem;
+  }
+}
+@media screen and (max-width: 570px) {
+  .CTA_TextContainer h1 {
+    width: 100%;
+  }
+  .CTA_TextContainer p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .TopContainer {
+    padding: 0px 20px 30px 20px;
+  }
+  .AchievmentContainer {
+    margin: 2rem 1.2rem;
+  }
+  .CTASection {
+    margin: 2rem 1.2rem;
+  }
+  .CTASection {
+    gap: 25px;
+  }
+  .CTA_Icon {
+    width: 200px;
+    top: 150px;
+    right: 0px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .CTA_Icon {
+    width: 190px;
+    top: 175px;
+    right: 0px;
+  }
+}
+@media screen and (max-width: 424px) {
+  .CTA_Icon {
+    top: 200px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .TopContainer {
+    padding: 0px 10px 30px 10px;
+  }
+  .AchievmentContainer {
+    margin: 2rem 0.8rem;
+  }
+  .CTASection {
+    margin: 2rem 0.8rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .TopContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .TopContainer h1 {
+    width: 100%;
+  }
+
+  .TopContainer p {
+    width: 100%;
+  }
+}

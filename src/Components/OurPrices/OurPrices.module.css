@@ -1,0 +1,167 @@
+.OurPrices_Section {
+  margin-top: 4rem;
+}
+.container_Top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.TextContainer {
+  width: 70%;
+}
+.TextContainer p {
+  margin-top: 1rem;
+}
+.Price_btn {
+  margin-top: 1rem;
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 12px;
+}
+.Price_btn button {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 12px 24px 12px 24px;
+}
+.Price_btn button:hover {
+  background: #ff9500;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.container_Bottom {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  gap: 30px;
+}
+.container_Bottom .Bottom_card {
+  border: 1px solid #f1f1f3;
+  width: 540px;
+  border-radius: 12px;
+  padding: 40px 24px 24px 24px;
+}
+.Bottom_card_Container1 {
+  border: 1px solid #ffeacc;
+  text-align: center;
+  background: #fff9f0;
+  padding: 10px 22px 10px 22px;
+  border-radius: 4px;
+}
+.Bottom_card_Container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Bottom_card_TextContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+.Bottom_card_TextContainer h1 {
+  font-size: 2rem;
+  line-height: 43px;
+  font-weight: 600;
+}
+.Bottom_card_TextContainer p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.Bottom_card_Subcontainer h5 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.Bottom_card_Subcontainer {
+  padding: 30px;
+  border: 1px solid #f1f1f3;
+}
+.ItemContainer {
+  padding: 0px 30px 0px 30px;
+}
+.ItemContainer .FeatureItem {
+  border: 1px solid #f1f1f3;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 12px;
+  gap: 8px;
+  margin-bottom: 1.3rem;
+}
+.ItemContainer .FeatureItem p {
+  font-size: 1rem;
+}
+.ItemContainer .FeatureItem .IconContainer {
+  width: 24px;
+  height: 24px;
+
+  padding: 4px;
+  background: #fff4e5;
+  border-radius: 4px;
+}
+.ItemContainer .FeatureItem .IconContainer_crossIcon {
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  border-radius: 4px;
+  background: #f1f1f3;
+}
+.Bottom_card_btn {
+  display: flex;
+  flex-direction: column;
+}
+.Bottom_card_btn button {
+  border: none;
+  outline: none;
+  background: #ff9500;
+  color: #ffffff;
+  border-radius: 0px 0px 8px 8px;
+  cursor: pointer;
+}
+@media screen and (max-width: 866px) {
+  .container_Top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .TextContainer {
+    width: 100%;
+  }
+  .Bottom_card_Subcontainer {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .ItemContainer .FeatureItem p {
+    font-size: 0.8rem;
+  }
+  .ItemContainer {
+    padding: 0px 20px 0px 20px;
+  }
+  .ItemContainer .FeatureItem {
+    padding: 8px;
+  }
+  .Bottom_card_Container2 {
+    /* border: 1px solid red; */
+    padding: 15px;
+  }
+  .Bottom_card_Subcontainer {
+    /* border: 1px solid black; */
+    padding: 10px;
+  }
+
+  .ItemContainer {
+    padding: 0px 10px 0px 10px;
+  }
+  .ItemContainer .FeatureItem p {
+    font-size: 0.8rem;
+  }
+}

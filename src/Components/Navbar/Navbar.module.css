@@ -1,0 +1,129 @@
+.Navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-top: 1.5rem;
+  /* border: 1px solid green; */
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+  gap: 50px;
+  align-items: center;
+  margin: 0 2rem;
+  /* border: 1px solid red; */
+}
+.logoShape {
+  padding: 0.3rem;
+  background-color: #ff9500;
+  border-radius: 0.2rem;
+}
+.NavItems {
+  /* border: 1px solid green; */
+  list-style: none;
+  display: flex;
+  gap: 26px;
+}
+
+.NavItems .NavItem a {
+  text-decoration: none;
+  color: #000000;
+  padding: 0.5rem;
+  margin: 0, 0.5rem;
+  border-radius: 0.4rem;
+}
+.NavItems .NavItem .active {
+  background: #f1f1f3;
+}
+
+.ButtonContainer {
+  display: flex;
+}
+.ButtonContainer .menuIcon {
+  height: 30px;
+  width: 30px;
+  display: none;
+}
+.ButtonContainer button {
+  outline: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.loginBtn {
+  background-color: #ff9500;
+  border-radius: 0.3rem;
+  /* color: #ffffff; */
+}
+.activeOrange button {
+  background-color: #ff9500;
+  border-radius: 0.3rem;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 900px) {
+  .NavItems {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    left: 0px;
+    /* right: 2%; */
+    top: 70px;
+    width: 350px;
+    height: 300px;
+    /* border: 2px solid orange; */
+    padding: 20px;
+    background-color: rgba(256, 256, 256, 1);
+    border-radius: 8px;
+    display: none;
+  }
+  .NavItems .NavItem a {
+    color: #ff9500;
+  }
+
+  .ButtonContainer .menuIcon {
+    position: relative;
+    /* height: 30px;
+    width: 30px; */
+    display: block;
+    cursor: pointer;
+  }
+  .menuCrossIcon {
+    position: absolute;
+    z-index: 1;
+    left: 300px;
+    top: 90px;
+    height: 20px;
+    width: 20px;
+    font-size: 3rem;
+  }
+
+  .menuOpen {
+    display: flex;
+    z-index: 1;
+  }
+  .container {
+    margin: 0 0.2rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .Navbar {
+    padding: 1rem 1.5rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .Navbar {
+    padding: 1rem 1rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  .Navbar {
+    padding: 1rem 0.5rem;
+  }
+}

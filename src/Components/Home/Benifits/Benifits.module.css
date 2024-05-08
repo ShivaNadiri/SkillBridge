@@ -1,0 +1,86 @@
+.BenifitSection {
+  margin-top: 4rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.TextContainer {
+  /* border: 1px solid cadetblue; */
+  width: 70%;
+}
+.TextContainer p {
+  margin-top: 1rem;
+}
+.Benifits_btn button {
+  outline: none;
+  border: none;
+  padding: 0.5rem 1.2rem;
+
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.Benifits_btn button:hover {
+  background-color: #ff9500;
+  border-radius: 0.3rem;
+  color: #ffffff;
+}
+.cardsContainer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* border: 2px solid black; */
+  gap: 24px;
+}
+.card_content {
+  /* border: 1px solid red; */
+  width: 365px;
+  text-align: end;
+  padding: 30px;
+  background: #ffffff;
+}
+.card_content h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.card_content h4 {
+  margin-bottom: 0.5rem;
+}
+.card_content h4,
+p {
+  text-align: start;
+}
+.card_content button {
+  outline: none;
+  border: none;
+  background: #fcfcfd;
+  border: 1px solid #f1f1f3;
+  cursor: pointer;
+  /* margin-right: 1rem; */
+}
+.card_content h1,
+button {
+  padding: 1rem;
+}
+@media screen and (max-width: 850px) {
+  .card_content {
+    width: 80%;
+  }
+}
+/* @media screen and (max-width: 866px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .Benifits_btn {
+    margin-top: 1rem;
+  }
+  .TextContainer {
+    width: 100%;
+  }
+} */

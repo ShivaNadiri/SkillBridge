@@ -1,0 +1,34 @@
+.SliderSlick {
+  /* border: 1px solid black; */
+  position: relative;
+}
+
+.FaArrowLeft {
+  padding: 12px;
+  position: absolute;
+  right: 70px;
+  background-color: #ffffff;
+  border: 1px solid #f1f1f3;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.FaArrowRight {
+  padding: 12px;
+  position: absolute;
+
+  right: 20px;
+  /* left: 540px; */
+  bottom: -45px;
+  background-color: #ffffff;
+  border: 1px solid #f1f1f3;
+  border-radius: 6px;
+  cursor: pointer;
+}
+/* @media screen and (max-width: 600px) {
+  .FaArrowLeft {
+    right: 250px;
+  }
+  .FaArrowRight {
+    right: 200px;
+  }
+} */

@@ -1,0 +1,87 @@
+.FooterSection {
+  margin-top: 4rem;
+  /* margin-bottom: 1rem; */
+  padding: 60px 80px 20px 80px;
+  /* border: 1px solid yellow; */
+  background: #ffffff;
+}
+.FooterContainer {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.logo .logoShape {
+  margin-left: 0.9rem;
+  padding: 0.3rem;
+  background-color: #ff9500;
+  border-radius: 0.2rem;
+}
+.SubContainer1 .buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.SubContainer1 .buttonsContainer button {
+  display: flex;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.SubContainer2 {
+  /* border: 1px solid rgb(16, 19, 209); */
+  display: flex;
+  gap: 24px;
+  padding: 1.2rem;
+}
+.Container .btnContainers {
+  margin-top: 0.8rem;
+}
+.Container .btnContainers p {
+  margin-bottom: 0.4rem;
+  font-size: 0.8rem;
+}
+.Container .btnContainers button {
+  margin: 0.3rem;
+  border: none;
+  outline: none;
+  padding: 14px;
+  border: 1px solid #f1f1f3;
+  background: #f7f7f8;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.line {
+  border-top: 1px solid #f1f1f3;
+  padding: 1.5rem 0;
+}
+.line p {
+  text-align: center;
+  font-size: 0.9rem;
+}
+@media screen and (max-width: 801px) {
+  .FooterSection {
+    padding: 40px 60px 20px 60px;
+  }
+  .FooterContainer {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    margin-bottom: 2rem;
+    gap: 24px;
+  }
+}
+@media screen and (max-width: 610px) {
+  .SubContainer2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 1.2rem;
+  }
+  .FooterSection {
+    padding: 40px 50px 20px 50px;
+  }
+}

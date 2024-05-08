@@ -1,0 +1,195 @@
+.TopContainer {
+  /* border: 1px solid yellow; */
+  padding: 0px 35px 30px 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  border-bottom: 1px solid #e4e4e7;
+  margin-top: 3rem;
+}
+.TopContainer h1 {
+  width: 40%;
+}
+
+.TopContainer p {
+  width: 50%;
+}
+.ContactSection {
+  /* padding: 1rem 0; */
+  margin: 1rem 3.5rem;
+  /* border: 1px solid red; */
+  display: flex;
+  /* gap: 10px; */
+}
+.form {
+  /* border: 1px solid rebeccapurple; */
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 70px;
+  /* border-right: solid red; */
+}
+.Elements_Container {
+  /* border: 1px solid orange; */
+  display: flex;
+  /* flex-direction: column; */
+  gap: 24px;
+}
+.Elements_SubContainer {
+  width: 100%;
+  /* display: flex;
+  flex-direction: column; */
+  /* border: 2px solid yellow; */
+}
+label {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.Elements_SubContainer input {
+  width: 100%;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  margin: 0.5rem 0;
+  padding: 20px;
+  border: 1px solid #f1f1f3;
+  border-radius: 6px;
+}
+.Elements_SubContainer textarea {
+  width: 100%;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  margin: 0.5rem 0;
+  padding: 20px;
+  border: 1px solid #f1f1f3;
+  border-radius: 6px;
+}
+.formContainer textarea {
+  height: 138px;
+  font-size: 1rem;
+}
+.Submit_btn {
+  text-align: center;
+}
+.Submit_btn button {
+  outline: none;
+  border: none;
+  padding: 14px 20px 14px 20px;
+  border-radius: 6px;
+  background-color: #ff9500;
+  color: #ffffff;
+  cursor: pointer;
+}
+.ButtonsContainer {
+  /* width: 410px; */
+  padding: 60px;
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #ffffff;
+}
+.Buttons_Sub_Container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.ButtonsContainer button {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: none;
+  outline: none;
+  gap: 14px;
+  padding: 14px;
+  border-radius: 6px;
+}
+.btn_container {
+  border: 1px solid #f1f1f3;
+  border-radius: 6px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.btn_social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btnContainers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnContainers button {
+  margin: 0.3rem;
+  border: none;
+  outline: none;
+  padding: 14px;
+  border: 1px solid #f1f1f3;
+  background: #f7f7f8;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.line {
+  width: 1px;
+  height: 100%;
+}
+@media screen and (max-width: 1050px) {
+  .ContactSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .line {
+    width: 100%;
+    height: 1px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .ContactSection {
+    margin: 1rem 2.5rem;
+  }
+  .form {
+    padding: 40px;
+  }
+}
+@media screen and (max-width: 667px) {
+  .TopContainer {
+    gap: 30px;
+    padding: 0px 20px 20px 20px;
+  }
+  .ContactSection {
+    margin: 1rem 2rem;
+  }
+  .Elements_Container {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 521px) {
+  .TopContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .TopContainer h1 {
+    width: 100%;
+  }
+  .TopContainer p {
+    width: 100%;
+  }
+  .ContactSection {
+    margin: 1rem 1.5rem;
+  }
+}

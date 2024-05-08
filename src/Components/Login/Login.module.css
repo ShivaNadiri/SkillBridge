@@ -1,0 +1,194 @@
+.SignUp {
+  padding: 3rem 3rem;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.subContainer {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  width: 50%;
+}
+.TextContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.TextContainer h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.TextContainer p {
+  font-size: 1rem;
+}
+.Login_TextContainer {
+  /* border: 1px solid cadetblue; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.LoginContainer {
+  /* margin-top: 3rem; */
+  padding: 40px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.textBetweenLines {
+  display: flex;
+  align-items: center;
+}
+
+.line {
+  flex: 1;
+  border-top: 1px solid #e4e4e7; /* Adjust line style as needed */
+  margin: 0 10px; /* Adjust spacing between lines and text */
+}
+.text {
+  color: #98989a;
+}
+.signUpForm {
+  /* border: 2px solid purple; */
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.form_SubContainer {
+  /* border: 1px solid red; */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.form_SubContainer input {
+  outline: none;
+  padding: 20px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #f1f1f3;
+}
+label {
+  font-weight: 500;
+  font-size: 1rem;
+}
+.Checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  margin: 24px 0;
+}
+.Checkbox input {
+  outline: none;
+  width: 20px;
+  height: 20px;
+
+  background-color: #f7f7f8;
+  border: 1px solid #f1f1f3;
+  border-radius: 4px;
+}
+.Pwd_container {
+  position: relative;
+}
+
+.eyeIcon {
+  position: absolute;
+  cursor: pointer;
+  right: 15px;
+  bottom: 10px;
+  font-size: 1.5rem;
+}
+.signUpForm button {
+  outline: none;
+  border: none;
+  width: 100%;
+  border-radius: 8px;
+  padding: 14px 20px 14px 20px;
+  cursor: pointer;
+}
+.SignUp_Btn {
+  background-color: #ff9500;
+  color: #ffffff;
+}
+a {
+  color: black;
+}
+.forgetPwd {
+  /* border: 1px solid red; */
+  text-align: end;
+  text-decoration: none;
+}
+.forgetPwd a {
+  text-decoration: none;
+}
+.button_2 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  font-size: 1rem;
+}
+.button_3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: transparent;
+  font-size: 1rem;
+}
+@media screen and (max-width: 1100px) {
+  .SignUp {
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .SignUp {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .SignUp {
+    gap: 20px;
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .LoginContainer {
+    width: 90%;
+  }
+  .subContainer {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .SignUp {
+    padding: 3rem 1rem;
+  }
+  .subContainer {
+    width: 100%;
+  }
+  .LoginContainer {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .button_3 {
+    font-size: 0.85rem;
+    gap: 1px;
+  }
+}
