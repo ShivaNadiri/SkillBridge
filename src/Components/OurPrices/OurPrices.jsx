@@ -141,9 +141,9 @@ function OurPrices() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className={styles.Bottom_card_btn}>
-            <button>Get Started</button>
+            <div className={styles.Bottom_card_btn}>
+              <button>Get Started</button>
+            </div>
           </div>
         </div>
       </div>
